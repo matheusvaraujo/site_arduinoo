@@ -1,0 +1,59 @@
+
+    body {
+      background-image: url('./negativo-179-173-97-238-163508.jpg');
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 85vh;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      border: 1px solid #4CAF50;
+      width: max-content;
+      height: max-content;
+      text-align: center;
+      padding: 30px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    header {
+      height: 140px;
+      width: 370px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 80px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid #4CAF50;
+      border-radius: 10px;
+
+    }
+    h1 {
+      color: #333;
+    }
+    img {
+      width: 400px;
+      height: 110px; 
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    input[type=time] {
+      padding: 10px;
+      font-size: 16px;
+      margin: 10px;
+    }
